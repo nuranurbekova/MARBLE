@@ -1,0 +1,84 @@
+@import "../vars";
+
+.footer {
+    background-color: #1f1f1f;
+    padding: 54px 0 45px;
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 255px;
+        font-family: $roboto;
+        padding-bottom: 50px;
+    }
+
+    &__title {
+        padding-bottom: 20px;
+        font-family: $roboto-condensed;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.375;
+        text-transform: uppercase;
+        color: #6c6c6c;
+
+    }
+    &__address {
+        padding-bottom: 32px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        
+    }
+    &__subtitle {
+        color: #cacaca;
+        padding-bottom: 32px;
+        font-family: $roboto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        
+    }
+    &__location {
+        margin-left: 18px;
+        text-indent: -9px;
+    }
+    &__subtitle-color {
+        color: #ffffff;
+    }
+    &__popular-post {
+        padding-bottom: 0;
+    }
+    &__twitter {
+        margin-left: 18px;
+        text-indent: -9px;
+    }
+    &__location,
+    &__phone,
+    &__email {
+        padding-bottom: 5px;
+    }
+    &__bottom-line {
+        border-bottom: 2px solid #353535;
+    }
+    &__copyright {
+        padding: 45px 0 29px;
+    }
+    &__copyright-txt {
+        font-family: $roboto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #cacaca;
+    }
+}
+.fas,
+.fab {
+    color: #a89574;
+}
+
+
